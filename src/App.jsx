@@ -1,9 +1,9 @@
 import { BrowserRouter } from 'react-router-dom';
-import Routes from "./Routes";
+import { AppRoutes } from './Routes';
 
 const App = () => (
   <BrowserRouter>
-    <Routes/>
+    <AppRoutes />
   </BrowserRouter>
 );
 
